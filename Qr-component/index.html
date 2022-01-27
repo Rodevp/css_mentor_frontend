@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,26 @@
     <link rel="stylesheet" href="./index.css">
     <title>Qr Component</title>
 </head>
-<body>
-    <section class="card">
-        <picture class="card__content_image">
-            <img src="./images/image-qr-code.png" alt="Qr image" class="card__image">
-        </picture>
-        <section>
-            <h2 class="card__title">
-                Improve your front-end skills by building projects
-            </h2>
-            <p class="card__paragraph">
 
-            </p>
+<body>
+    <div class="content">
+        <section class="card">
+            <picture class="card__content_image">
+                <source media="(max-width: )" srcset="">
+                <source media="(max-width: )" srcset="">
+                <source media="(max-width: )" srcset="">
+                <img src="./images/qr_code.png" alt="Qr image" class="card__image" width="250px">
+            </picture>
+            <section class="card__content_information">
+                <h2 class="card__title">
+                    Improve your front-end skills by building projects
+                </h2>
+                <p class="card__paragraph">
+                    Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+                </p>
+            </section>
         </section>
-    </section>
+    </div>
 </body>
+
 </html>
