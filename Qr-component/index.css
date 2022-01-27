@@ -30,9 +30,9 @@
 .card {
     display: flex;
     flex-direction: column;
+    width: 80%;
     align-items: center;
     border-radius: 15px;
-    width: 80%;
     background-color: var(--white-color);
 }
 
@@ -72,4 +72,40 @@
     padding-top: 0.2em;
     padding-bottom: 0.2em;
     color: var(--light-gray);
+}
+
+@media screen and (min-width: 360px) {
+    .card {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .card {
+        width: 55%;
+    }
+}
+
+@media screen and (min-width: 630px) {
+    .card {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .card {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .card {
+        width: 22%;
+    }
 }
