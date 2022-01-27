@@ -12,3 +12,9 @@
     --dark-blue: hsl(218, 44%, 22%);
 }
 
+body {
+    background-color: var(--light-gray);
+}
+
+
+
