@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 @font-face {
@@ -20,5 +20,113 @@
     --white: hsl(0, 0%, 100%);
 
     --font-body: 'oufit';
-    
+
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--very-dark-blue);
+}
+
+.card {
+    width:75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    background-color: var(--very-dark-blue-two);
+}
+
+.card__content_image {
+    width: 80%;
+    height: 45%;
+    margin-top: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+.card__content_image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.card__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.card__title {
+    width: 100%;
+    font-size: 0.9rem;    
+    color: var(--white);
+    font-family: var(--font-body);
+    padding-bottom: 0.8em;
+}
+
+.card__paragraph {
+    width: 100%;
+    font-size: 0.8rem;    
+    color: var(--soft-blue);
+    font-family: var(--font-body);
+    padding-bottom: 1em;
+}
+
+.card__more_information {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--very-dark-blue-three);
+}
+
+.card__price {
+    font-size: 0.8rem; 
+    font-family: var(--font-body);
+    color: var(--cyan);
+}
+
+.card__date {
+    display: inline-flex;
+    font-size: 0.8rem; 
+    font-family: var(--font-body);
+    color: var(--soft-blue);
+}
+
+.card__date, .card__price {
+    padding-bottom: 1em;
+}
+
+.card__avatar {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.card__content_avatar_image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: violet;
+}
+
+.card__content_avatar_image img {
+    height: 100%;
+    width: 100%;
+}
+
+.card__name_avatar {
+    font-size: 0.8rem;
+    padding-left: 0.7em;
+    font-family: var(--font-body);
+    color: var(--soft-blue);
+}
+
+.card__name_avatar span {
+    font-size: inherit;
+    color: var(--white);
 }
