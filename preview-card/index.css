@@ -166,3 +166,36 @@
     color: var(--cyan);
 }
 
+@media screen and (min-width: 460px) {
+    .card {
+        width: 55%;
+    }
+}
+
+
+@media screen and (min-width: 600px) {
+    .card {
+        width: 50%;
+    }
+}
+
+
+@media screen and (min-width: 720px) {
+    .card {
+        width: 32%;
+    }
+}
+
+
+@media screen and (min-width: 960px) {
+    .card {
+        width: 30%;
+    }
+}
+
+
+@media screen and (min-width: 1020px) {
+    .card {
+        width: 26%;
+    }
+}
