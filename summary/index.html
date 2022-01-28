@@ -5,20 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./index.css">
     <title>Summary card</title>
 </head>
 
 <body>
     <main class="content">
+        <div class="effect__bakcground">
+            <picture class="effect__background_img">
+                <source src="./images/pattern-background-desktop.svg" media="(min-width: 720px)">
+                <img src="./images/pattern-background-mobile.svg" alt="image">
+            </picture>
+        </div>
         <section class="card">
             <figure class="card__content_image">
-                <source media="(min-width: 720px)" src="./images/pattern-background-desktop.svg">
-                <img src="./images/pattern-background-mobile.svg" alt="image person">
+                <img src="./images/illustration-hero.svg" alt="image person">
             </figure>
             <section class="card__information">
-                Order Summary You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere
-                you like!
+                <h1 class="card__information_title">
+                    Order Summary
+                </h1>
+                <p>
+                    You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere
+                    you like!
+                </p>
             </section>
             <section class="card__anual_plan">
                 <div class="card__icon_content">
@@ -26,7 +39,7 @@
                 </div>
                 <div class="card__plan">
                     <h2>
-                        Annual Plan 
+                        Annual Plan
                     </h2>
                     <p class="card__price_plan">
                         $59.99/year
