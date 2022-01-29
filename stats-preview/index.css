@@ -29,7 +29,7 @@
 
 
 .stats {
-    width: 75%;
+    width: 72%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,6 +40,7 @@
 .stast__image {
     width: 100%;
     height: 30%;
+    position: relative;
 }
 
 .stast__image_content, .stast__image_content > img {
@@ -47,9 +48,19 @@
     height: 100%;
 }
 
-.stast__image, .stast__image_content, .stast__image_content > img {
+.stast__image, .stast__image_content, .stast__image_content > img,
+.effect__card__img {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+.effect__card__img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    opacity: 0.5;
+    background-color: var(--Softviolet);
 }
 
 .title__stats {
