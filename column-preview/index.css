@@ -103,3 +103,63 @@
 .card__btn--luxury {
     color: var(--Verydarkcyan);
 }
+
+@media screen and (min-width: 480px) {
+    .wrapper {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .wrapper {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 720px) {
+
+    .content {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .wrapper {
+        height: 60%;
+        width: 95%;
+        flex-direction: row;
+    }
+
+    .title__card {
+        font-size: 1.6rem;
+    }
+
+    .card {
+        justify-content: space-evenly;
+    }
+}
+
+
+
+@media screen and (min-width: 960px) {
+
+    .wrapper {
+        width: 98%;
+    }
+
+    .title__card {
+        font-size: 1.8rem;
+    }
+
+}
+
+@media screen and (min-width: 1020px) {
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .title__card {
+        font-size: 1.9rem;
+    }
+    
+}
