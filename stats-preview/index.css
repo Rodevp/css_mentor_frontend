@@ -154,7 +154,102 @@
 
     .stast__image {
         height: 100%;
-        width: 50%;
+        width: 40%;
+        order: 1;
+    }
+    
+    .stast__image, .stast__image_content, .stast__image_content > img,
+    .effect__card__img {
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 5px;
+    }
+
+    .content__information_stats {
+        width: 60%;
+        height: 100%;
+    }
+
+    .title__stats {
+        font-size: 1.4rem;
+        text-align: left;
+        margin-bottom: 1rem;
+    }
+
+    .information__stats {
+        text-align: left;
+        width: 70%;
+    }
+    
+    .stats__numbers {
+        width: 70%;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 1em;
     }
 
 }
+
+
+@media screen and (min-width: 1020px) {
+    
+    .stast__image {
+        width: 45%;
+    }
+    
+    .content__information_stats {
+        width: 55%;
+    }
+
+    .title__stats {
+        width: 65%;
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+
+    .information__stats {
+        width: 65%;
+        font-size: 0.8rem;
+    }
+    
+    .stats__numbers {
+        width: 65%;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1040px) {
+    
+    .stast__image {
+        width: 45%;
+    }
+    
+    .content__information_stats {
+        width: 55%;
+    }
+
+    .title__stats {
+        width: 65%;
+        font-size: 1.8rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .information__stats {
+        width: 65%;
+        font-size: 1rem;
+    }
+    
+    .stats__numbers {
+        width: 65%;
+    }
+
+}
+
+
+
+
+
+
+
+
