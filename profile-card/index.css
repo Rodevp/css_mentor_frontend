@@ -144,3 +144,54 @@
 }
 
 
+@media screen and (min-width: 460px) {
+    .card__avatar {
+        top: 90px;
+    }   
+   
+    .card {
+        width: 70%;
+    }
+
+}
+
+@media screen and (min-width: 590px) {
+    .card__avatar {
+        top: 90px;
+    }   
+   
+    .card {
+        width: 55%;
+    }
+
+}
+
+@media screen and (min-width: 720px) {   
+   
+    .card {
+        width: 45%;
+    }
+
+}
+
+
+@media screen and (min-width: 920px) {   
+   
+    .card {
+        width: 35%;
+    }
+
+}
+
+@media screen and (min-width: 1020px) {   
+   
+    .card {
+        width: 25%;
+    }
+
+}
+
+
+
+
+
