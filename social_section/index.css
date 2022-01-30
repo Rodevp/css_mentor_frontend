@@ -175,3 +175,148 @@
     text-align: left;
     color: var(--Light-Grayish-Magenta);
 }
+
+@media screen and (min-width: 480px ) {
+    .comment {
+        width: 80%;
+    }
+
+    .content__information {
+        width: 80%;
+        margin-bottom: 2.8rem;
+    } 
+
+}
+
+
+@media screen and (min-width: 620px ) {
+    .comment {
+        width: 60%;
+    }
+
+    .content__information {
+        width: 65%;
+        margin-bottom: 3.2rem;
+    } 
+
+}
+
+@media screen and (min-width: 620px ) {
+    .comment {
+        width: 55%;
+    }
+
+    .content__information {
+        width: 60%;
+        margin-bottom: 4rem;
+    } 
+
+}
+
+@media screen and (min-width: 920px ) {
+
+    .content__information, .content__comments {
+        width: 95%; 
+        height: 50%;
+        flex-direction: row;
+        margin-bottom: 1rem;
+    }
+
+    .contet__starts  {
+        width: 50%;
+        height: 100%;
+    }
+
+    .starts__information {
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+    }
+
+    .content__information_title {
+        width: 50%;
+        height: 100%;
+        margin: 0;
+        padding-top: 1em;
+        padding-left: 4em;
+        align-items: flex-start;
+    }
+
+    .content__information_title h1 {
+        width: 60%;
+        text-align: left;
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .content__information_title p{
+        width: 60%;
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    .contet__starts {
+        justify-content: space-evenly;
+    }
+
+    .starts__information {
+        margin-bottom: 0;
+        width: 65%;
+    }
+
+    .starts__information:nth-child(2) {
+        margin-left: 3rem;
+    }
+
+    .starts__information:nth-child(3) {
+        margin-left: 6rem;
+    }
+
+    .comment {
+        width: 32%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .content__comments {
+        justify-content: space-evenly;
+    }
+
+    .comment__paragraph {
+        font-size: 0.8rem;
+    }
+
+    .comment:nth-child(1) {
+        margin-top: -2rem;
+    }
+
+    .comment:nth-child(3) {
+        margin-top: 2rem;
+    }
+
+
+}
+
+@media screen and (min-width: 1020px ) {
+
+    .content__information_title {
+        width: 40%;
+        height: 100%;
+        margin: 0;
+        padding-top: 3em;
+        padding-left: 8em;
+    }
+
+    .content__information_title h1 {
+        width: 60%;
+        text-align: left;
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .content__information_title p{
+        width: 80%;
+    }
+
+
+}
