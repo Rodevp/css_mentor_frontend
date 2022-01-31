@@ -156,5 +156,65 @@
     color: var(--Light-Gray);
 }
 
+@media  screen and (min-width: 420px) {
+    
+    .card__simple {
+        width: 70%;
+    }
+
+}
 
 
+@media  screen and (min-width: 520px) {
+    
+    .card__simple {
+        width: 50%;
+    }
+
+}
+
+
+@media  screen and (min-width: 620px) {
+    
+    .card__simple {
+        width: 45%;
+    }
+
+}
+
+@media  screen and (min-width: 720px) {
+    
+    .card__simple {
+        width: 35%;
+    }
+
+}
+
+
+@media  screen and (min-width: 920px) {
+    
+    .card__simple {
+        width: 28%;
+    }
+
+}
+
+
+@media  screen and (min-width: 1020px) {
+    
+    .card__simple {
+        width: 60%;
+        height: 70%;
+    }
+
+    .card__simple__subscription {
+        flex-direction: row;
+        height: 70%;
+        justify-content: center;
+    }
+
+    .card__simple__subscription__information, .card__simple__other {
+        justify-content: center;
+    }
+
+}
