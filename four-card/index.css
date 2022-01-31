@@ -132,6 +132,97 @@
     border-top: 3px solid var(--Blue);
 }
 
+@media screen and (min-width: 460px) {
+    
+    .information {
+        width: 70%;
+    }
+
+    .cards {
+        width: 70%;
+    }
 
 
+}
+
+@media screen and (min-width: 620px) {
+    
+    .information {
+        width: 55%;
+    }
+
+    .cards {
+        width: 60%;
+    }
+
+
+}
+
+
+@media screen and (min-width: 720px) {
+    
+    .information {
+        width: 45%;
+    }
+
+    .cards {
+        width: 50%;
+    }
+
+
+}
+
+@media screen and (min-width: 720px) {
+    
+    .information {
+        height: 30%;
+        width: 40%;
+    }
+
+    .cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 96%;
+        height: 70%;
+        position: relative;
+    }
+    
+    .card {
+        margin-bottom: 1rem;
+        width: 30%;
+    }
+
+    .card__content_img {
+        margin-bottom: 0.5rem;
+    }
+
+    .card:nth-child(1), .card:nth-child(3) {
+        position: relative;
+        top: 6rem;        
+    }
+
+
+}
+
+
+@media screen and (min-width: 1020px) {
+
+    .information {
+        width: 28%;
+    }
+    
+    .cards {
+        width: 78%;
+    }
+    
+    .card {
+        margin-bottom: 0.2rem;
+    }
+
+    .card__content_img {
+        margin-bottom: 0;
+    }
+
+
+}
 
